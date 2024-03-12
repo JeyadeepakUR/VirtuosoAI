@@ -1,0 +1,82 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a basic font style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end; /* Align children at the bottom */
+}
+ .side-bar{
+  background-color: #555;
+  height:100vh;
+  width:244px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ 
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.info {
+  font-size: 0.8em;
+  margin-top: 10px;
+  color: #555;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.feed {
+  list-style: none;
+  background-color: red;
+}
